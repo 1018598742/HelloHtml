@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8"/>
+	<title>图片加载之预加载</title>
+	<style>
+		.box{
+			text-align: center;
+			
+		}
+		.btn{
+			display: inline-block;
+			height: 30px;
+			line-height: 30px;
+			border: 1px solid #ccc;
+			background-color: #fff;
+			padding: 0 10px;
+			margin-right: 50px;
+			color: #333;
+			text-decoration: none;
+			
+		}
+		.btn:hover{
+			background-color: #eee;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="box">
+		<img src="https://cdn.pixabay.com/photo/2017/04/24/00/16/auto-2255161_960_720.jpg" alt="pic" id="img" width="1200">
+		<p>
+			<a href="javascript:;" class="btn" data-control="prev">上一页</a>
+			<a href="javascript:;" class="btn" data-control="next">下一页</a>
+		</p>
+	</div>
+
+	<script src="js/script.js"></script>
+	
+	<input type="color">
+	<input type="date">
+	<input type="datetime-local">
+</body>
+</html>
